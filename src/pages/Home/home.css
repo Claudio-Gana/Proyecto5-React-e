@@ -1,0 +1,251 @@
+/*jumbotron */
+.container-jumbo{
+
+    background-image: url(../src/assets/fondo2.jpeg);
+    background-attachment:local;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 500px;
+}
+
+.jumbo-txt{
+    background: transparent;
+    width: 70%;
+    float: left;
+
+}
+
+h1{
+    background: transparent;
+    color: white;
+}
+.caja-txt{
+    background: transparent;
+    border-radius: 10px;
+    height: 45px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container-jumbo p {
+    background: transparent;
+    color: white;
+    font-size: medium !important;
+
+}
+
+.btn-caja{
+    height: 45px;
+    color: white;
+}
+/*fin de jumbotron */
+
+
+/*Showroom*/
+
+.tendencia{
+    background-color: rgb(231, 231, 233);
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+
+.tendendia-txt{
+    width: 40%;
+    height: 600px;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(9, 9, 8);
+    font-size: medium;
+    padding: 80px 50px 0px 40px
+}
+
+.tendencia button{
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 30px;
+    
+}
+
+.imgs{
+
+    width: 60%;
+    height: 600px;
+    
+    
+
+}
+
+.tendencia img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+/* fin de Showroom*/
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/*Testimonios*/
+.adicional{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px;
+    padding: 10px;
+
+
+}
+
+
+.sec1{
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: solid 2px black;
+    padding: 100px 10px 100px 10px;
+    text-align: center;
+}
+
+.adicional img{ /*si no coloco la imagen que ocupe el 100% y la imagen es muy grande se sale de la pantalla */
+    height: 30%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.sec2{
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+}
+/* fin de los Testimonios*/
+
+/*-----------------------------------------------------------------------------------*/
+
+/* blog */
+.container-editor{
+
+	margin-top: 0;
+	padding: 20%;
+}
+.editor__item{
+	height: 300px;
+	position: relative;/*para que todo este dentro del item y no salga para el resto de la pagina*/
+	margin-top: 10px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.editor__img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;/* para que la imagen no se estire*/
+	object-position: 75% 20%;/*sirve para mover la imagen dentro del cuadro*/
+}
+
+.editor__circle{
+    background: transparent;
+	width: 200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 50%;/*para que sea un circulo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: -200px;
+	right: -150px;
+	color: white;
+	padding: 20px;
+	padding-bottom: 50px;
+	padding-right: 40px;
+	font-size: 1.1sem;
+	text-align: center;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+.editor__item:hover .editor__circle{
+
+	transform: scale(1.2);
+	bottom: -50px;
+	right: -20px;
+
+}
+.editor__item:before { 
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0,5s;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.editor__item:hover:before {
+	opacity: 1;
+}
+/* fin de blog */
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*diseños de titulos*/
+.container__testimonio{
+	text-align: center;
+	background: #f7f7f7;
+	padding: 20px;
+	margin: 20px 0;
+    color: black;
+	
+}
+/*fin de diseños de titulos*/
+
+/*@media (max-width:700px) { 
+
+    .container-jumbo p{
+        display: none;
+    }
+   
+    }
+    .jumbo-txt input{
+        display: none;
+        
+    }
+    .jumbo-txt button{
+        display: none;
+    }
+
+   .tendencia p{
+    display: none;
+    height: 100px;
+   }
+
+   .tendendia-txt h2{
+    color: black;
+    font-size: 100%;
+   }
+   .tendendia-txt button{
+    font-size: small;
+    width: 150%;
+    height: 10%;
+   
+   }
+   .imgs{
+    height: 100%;
+   }
+   .tendencia{
+    height: 300px;
+   }
+   */

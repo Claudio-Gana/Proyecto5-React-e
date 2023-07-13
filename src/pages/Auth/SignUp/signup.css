@@ -1,0 +1,36 @@
+
+.formulario{
+    width: 50%;
+
+    background-color: white;
+    text-align: center;
+    padding: 3%;
+    
+}
+
+.formulario h1{
+    color: black;
+}
+
+.formulario label{
+    margin-top: 10px;
+}
+.formulario input{
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: end;
+    
+}
+
+.contenedor{
+    margin-top: 0%;
+    border-bottom: black double;
+    display: flex;
+    
+
+}
+
+.imagen{
+    width: 50%;
+}
