@@ -1,7 +1,7 @@
 /*jumbotron */
 .container-jumbo{
 
-    background-image: url(../src/assets/fondo2.jpeg);
+    background-image: url(../../assets/fondo2.jpeg);
     background-attachment:local;
     background-size:cover;
     background-repeat: no-repeat;
