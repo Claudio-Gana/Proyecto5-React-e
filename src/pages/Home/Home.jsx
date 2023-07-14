@@ -4,6 +4,8 @@ import UserContext from '../../contexts/user/UserContext.jsx';
 import Products from '../Products/Products.jsx';
 import './home.css'
 import tienda3 from "../../assets/tienda3.jpeg"
+import imagen5 from "../../assets/img5.jpg"
+import imagen6 from "../../assets/img6.jpg"
 
 export function Home() {
   const userCtx = useContext( UserContext )
@@ -129,14 +131,14 @@ export function Home() {
       <div className="container__editor">
         <a href="#">
           <div className="editor__item">
-            <img src="/../src/assets/img5.jpg" className="editor__img" alt="imagen 1" />
+            <img src={imagen5} className="editor__img" alt="imagen 1" />
             <p className="editor__circle">Nuevas tendencias en la moda</p>
           </div>
         </a>
 
         <a href="#">
           <div className="editor__item">
-            <img src="../src/assets/img6.jpg" className="editor__img" alt="imagen 2" />
+            <img src={imagen6} className="editor__img" alt="imagen 2" />
             <p className="editor__circle">Expresa tu estilo</p>
           </div>
         </a>
