@@ -3,6 +3,7 @@ import { Carousel, Container } from 'react-bootstrap';
 import UserContext from '../../contexts/user/UserContext.jsx';
 import Products from '../Products/Products.jsx';
 import './home.css'
+import tienda3 from "../../assets/tienda3.jpeg"
 
 export function Home() {
   const userCtx = useContext( UserContext )
@@ -60,7 +61,7 @@ export function Home() {
         </div>
 
         <div className="imgs">
-          <img src="../../../src/assets/tienda3.jpeg" alt="tienda" />
+          <img src={tienda3} alt="tienda" />
         </div>
       </section>
     </div>
