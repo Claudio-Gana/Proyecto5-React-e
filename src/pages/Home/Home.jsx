@@ -60,7 +60,7 @@ export function Home() {
         </div>
 
         <div className="imgs">
-          <img src="../../src/assets/tienda3.jpeg" alt="tienda" />
+          <img src="../../../src/assets/tienda3.jpeg" alt="tienda" />
         </div>
       </section>
     </div>
@@ -128,14 +128,14 @@ export function Home() {
       <div className="container__editor">
         <a href="#">
           <div className="editor__item">
-            <img src="../../src/assets/img5.jpg" className="editor__img" alt="imagen 1" />
+            <img src="src/assets/img5.jpg" className="editor__img" alt="imagen 1" />
             <p className="editor__circle">Nuevas tendencias en la moda</p>
           </div>
         </a>
 
         <a href="#">
           <div className="editor__item">
-            <img src="../../src/assets/img6.jpg" className="editor__img" alt="imagen 2" />
+            <img src="../src/assets/img6.jpg" className="editor__img" alt="imagen 2" />
             <p className="editor__circle">Expresa tu estilo</p>
           </div>
         </a>
