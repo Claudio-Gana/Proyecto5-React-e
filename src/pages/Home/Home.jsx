@@ -128,7 +128,7 @@ export function Home() {
       <div className="container__editor">
         <a href="#">
           <div className="editor__item">
-            <img src="src/assets/img5.jpg" className="editor__img" alt="imagen 1" />
+            <img src="/../src/assets/img5.jpg" className="editor__img" alt="imagen 1" />
             <p className="editor__circle">Nuevas tendencias en la moda</p>
           </div>
         </a>
