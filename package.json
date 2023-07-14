@@ -11,6 +11,7 @@
     "start": "vite preview"
   },
   "dependencies": {
+    "vite": "^4.3.9",
     "@paypal/react-paypal-js": "^8.1.0",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.0",
