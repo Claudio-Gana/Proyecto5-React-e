@@ -4,6 +4,7 @@ import ShoppingCartContext from "../../contexts/ShoppingCart/ShoppingCartContext
 import UserContext from '../../contexts/user/UserContext.jsx';
 import { ShoppingCart } from '../ShoppingCart/ShoppingCart.jsx';
 import './header.css';
+import logo from "../../assets/logo.jpeg"
 
 export const Header = () => {
   const userCtx = useContext(UserContext);
@@ -21,7 +22,7 @@ export const Header = () => {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src="../../assets/logo.jpeg"
+              src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
