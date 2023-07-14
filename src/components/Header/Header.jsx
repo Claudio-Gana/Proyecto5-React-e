@@ -21,7 +21,7 @@ export const Header = () => {
           <Navbar.Brand href="/">
             <img
               alt=""
-              src="../src/assets/logo.jpeg"
+              src="../../assets/logo.jpeg"
               width="30"
               height="30"
               className="d-inline-block align-top"
