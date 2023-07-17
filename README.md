@@ -13,6 +13,6 @@ Navegación entre la página de inicio y la página de detalles de los relojes.
 
 
 Contacto
-Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en ponerte en contacto con nosotros a través de la sección de Issues en GitHub o enviando un correo electrónico a contact@example.com.
+Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en ponerte en contacto con nosotros a través de la sección de Issues en GitHub o enviando un correo electrónico a cganaromeo@gmail.com
 
 ¡Gracias por tu interés en este proyecto! Esperamos tus contribuciones.
